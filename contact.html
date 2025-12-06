@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>İletişim — Goodieflow</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <div class="logo-image"><img src="logo.svg" alt="GoodieFlow Logo"></div>
+    <div class="brand-text"></div>
+    </div>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="about.html">Hakkımızda</a>
+    <a href="contact.html">İletişim</a>
+  </nav>
+</header>
+
+<main style="padding-top:120px">
+  <section class="section container visible">
+    <h2 class="section-title">İletişim</h2>
+    <p>E-posta: info@goodieflow.ai</p>
+    <p>Telefon: +90 5xx xxx xx xx</p>
+
+    <form action="https://formsubmit.co/youremail@example.com" method="POST" style="margin-top:18px;max-width:640px">
+      <input type="hidden" name="_captcha" value="false">
+      <input name="name" placeholder="İsim" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-bottom:8px;background:#fff;color:#111">
+      <input name="email" placeholder="E-posta" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-bottom:8px;background:#fff;color:#111">
+      <textarea name="message" placeholder="Mesaj" rows="6" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);background:#fff;color:#111"></textarea>
+      <button class="btn primary" type="submit" style="margin-top:10px">Gönder</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">© 2025 Goodieflow</div>
+</footer>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
